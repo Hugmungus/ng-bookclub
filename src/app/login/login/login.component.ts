@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { HOME } from '../../constants';
 
 @Component({
   selector: 'app-login',
@@ -16,7 +17,7 @@ export class LoginComponent implements OnInit {
   }
   login() {
     if (true) {
-      this.router.navigate(['home']);
+      this.router.navigate([HOME]);
     }
   }
 
